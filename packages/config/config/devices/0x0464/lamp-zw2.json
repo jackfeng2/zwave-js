@@ -3,12 +3,13 @@
   "manufacturerId": "0x0464",
   "label": "LAMP-ZW2",
   "description": "Z-Wave 800 LR Plug-In Lamp Dimmer",
-  "devices": 
+   "devices": 
     {
-      "productType": "0xFF00",
-      "productId": "0xFF0D"
-    }
-  ,
+      "lamp-zw2": {
+        "productType": "0xff00",
+        "productId": "0xff0d"
+      }
+    },
   "firmwareVersion": {
     "min": "8.0.0",
     "max": "8.10.0"
